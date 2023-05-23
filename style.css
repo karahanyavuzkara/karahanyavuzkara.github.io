@@ -18,9 +18,7 @@ nav{
     align-items:center;
 
 }
-nav-img{
-    width: 150px;
-}
+
 .nav-links{
     flex: 1;
     text-align: right;
@@ -36,6 +34,15 @@ nav-img{
     text-decoration: none;
     font-size: 20px;
     
+}
+.container {
+    display:flex;
+    justify-content: flex-end;
+    position: absolute;
+    align-items: flex-end;
+    right: 1220px;
+    top: 70px;
+    z-index: 1; 
 }
 .nav-links ul li::after{
     content: "";
